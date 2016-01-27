@@ -10,8 +10,8 @@
   </thead>
   <tbody>
     <tr>
-      <td><%= link_to @album.id, product_album_path(@album) %></td>
-      <td><%= @album.name %></td>
+      <td><%= link_to @album.id, album_path(@album) %></td>
+      <td><%= link_to @album.name, album_path(@album) %></td>
       <td><%= @album.img_url %></td>
       <td><%= @album.year_released %></td>
     </tr>
@@ -19,7 +19,7 @@
 </table>
 <hr>
 <p>
-  <%= link_to "Edit album", edit_album_path(, @album), class: "btn btn-default" %>
-  <%= link_to "Delete album", album_path(, @album), method: :delete, class: "btn btn-default" %>
+  <%= link_to "Edit album", edit_album_path(@album), class: "btn btn-default" %>
+  <%= link_to "Delete album", album_path(@album), method: :delete, class: "btn btn-default" %>
 </p>
-<%= link_to  "Return to album",  %>
+<%= link_to  "Return to album"  %>
