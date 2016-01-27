@@ -1,25 +1,8 @@
 <h1><%= @album.name %></h1>
-<table class="table table-hover">
-  <thead>
-    <tr>
-      <th>id</th>
-      <th>name</th>
-      <th>image</th>
-      <th>year_released</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><%= link_to @album.id, album_path(@album) %></td>
-      <td><%= link_to @album.name, album_path(@album) %></td>
-      <td><%= @album.img_url %></td>
-      <td><%= @album.year_released %></td>
-    </tr>
-  </tbody>
-</table>
-<hr>
+<!--
+add an album's songs here! -->
 <p>
-  <%= link_to "Edit album", edit_album_path(@album), class: "btn btn-default" %>
-  <%= link_to "Delete album", album_path(@album), method: :delete, class: "btn btn-default" %>
+  <%= link_to "Edit album", edit_album_path(@album) %>
+  <%= link_to "Delete album", album_path(@album), method: :delete %>
 </p>
 <%= link_to  "Return to albums", albums_path  %>

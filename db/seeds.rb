@@ -112,6 +112,7 @@ puts "Adding a Whole bunch of songs"
 Song.create [
     {
       name: "Crazy in Love",
+      artist_id: 1,
       duration: "4:00",
       album_id: 1
 
@@ -119,165 +120,200 @@ Song.create [
     {
       name: "Naughty Girl",
       duration: "4:00",
+      artist_id: 1,
       album_id: 1
     },
     {
       name: "Baby Girl",
       duration: "4:00",
+      artist_id: 1,
       album_id: 1
     },
     {
       name: "I Care",
       duration: "4:00",
+      artist_id: 1,
       album_id: 2
     },
     {
       name: "1 + 1",
       duration: "4:00",
+      artist_id: 1,
       album_id: 2
     },
     {
       name: "Party",
       duration: "4:00",
+      artist_id: 1,
       album_id: 2
     },
     {
       name: "If I Were A Boy",
       duration: "4:00",
+      artist_id: 1,
       album_id: 3
     },
     {
       name: "Single Ladies",
       duration: "4:00",
+      artist_id: 1,
       album_id: 3
     },
     {
       name: "Sweet Dreams",
       duration: "4:00",
+      artist_id: 1,
       album_id: 3
     },
     {
       name: "Teardrops on my Guitar",
       duration: "4:00",
+      artist_id: 2,
       album_id: 4
     },
     {
       name: "Hey Stephen",
       duration: "4:00",
+      artist_id: 2,
       album_id: 4
     },
     {
       name: "You Belong with Me",
       duration: "4:00",
+      artist_id: 2,
       album_id: 4
     },
     {
       name: "I Knew You Were Trouble",
       duration: "4:00",
+      artist_id: 2,
       album_id: 5
     },
     {
       name: "Red",
       duration: "4:00",
+      artist_id: 2,
       album_id: 5
     },
     {
       name: "Begin Again",
       duration: "4:00",
+      artist_id: 2,
       album_id: 5
     },
     {
       name: "Shake it Off",
       duration: "4:00",
+      artist_id: 2,
       album_id: 6
     },
     {
       name: "Blank Space",
       duration: "4:00",
+      artist_id: 2,
       album_id: 6
     },
     {
       name: "Style",
       duration: "4:00",
+      artist_id: 2,
       album_id: 6
     },
     {
       name: "Tatooed Heart",
       duration: "4:00",
+      artist_id: 3,
       album_id: 7
     },
     {
       name: "Right There",
       duration: "4:00",
+      artist_id: 3,
       album_id: 7
     },
     {
       name: "The Way",
       duration: "4:00",
+      artist_id: 3,
       album_id: 7
     },
     {
       name: "Last Christmas",
       duration: "4:00",
+      artist_id: 3,
       album_id: 8
     },
     {
       name: "Love is Everything",
       duration: "4:00",
+      artist_id: 3,
       album_id: 8
     },
     {
       name: "Snow In California",
       duration: "4:00",
+      artist_id: 3,
       album_id: 8
     },
     {
       name: "Problem",
       duration: "4:00",
+      artist_id: 3,
       album_id: 9
     },
     {
       name: "Break Free",
       duration: "4:00",
+      artist_id: 3,
       album_id: 9
     },
     {
       name: "Best Mistake",
       duration: "4:00",
+      artist_id: 3,
       album_id: 9
     },
     {
       name: "Rolling in the Deep",
       duration: "4:00",
+      artist_id: 4,
       album_id: 10
     },
     {
       name: "Rumor Has it",
       duration: "4:00",
+      artist_id: 4,
       album_id: 10
     },
     {
       name: "Set Fire to the Rain",
       duration: "4:00",
+      artist_id: 4,
       album_id: 10
     },
     {
       name: "Hometown Glory",
       duration: "4:00",
+      artist_id: 4,
       album_id: 11
     },
     {
       name: "Chasing Pavements",
       duration: "4:00",
+      artist_id: 4,
+
       album_id: 11
     },
     {
       name: "Crazy For You",
       duration: "4:00",
+      artist_id: 4,
+
       album_id: 11
     },
     {
       name: "Hello",
       duration: "4:00",
+      artist_id: 4,
       album_id: 12
     }]

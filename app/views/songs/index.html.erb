@@ -2,9 +2,11 @@
 <hr>
 <% @songs.each do |song| %>
   <p class='song'>
-    <strong><%= song.name %></strong> (<%= song.category %>)
+    <strong><%= song.name %></strong> (<%= song.duration %>)
     <%= link_to "View Song", song_path(song) %>
   </p>
+  <!-- Try adding a table of songs here! -->
+
   <hr>
 <% end %>
 <%= link_to "Home", root_path %>
