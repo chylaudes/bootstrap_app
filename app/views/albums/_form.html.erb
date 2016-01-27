@@ -1,0 +1,15 @@
+<%= form_for @album do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, placeholder: "Album name", class: "form-control", autofocus: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :img_url %>
+    <%= f.text_area :img_url, placeholder: "Image Url", class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :year_released %>
+    <%= f.text_field :year_released, placeholder: "Album Year Released", class: "form-control" %>
+  </div>
+  <%= f.submit "Save Album", class: "btn btn-block btn-default" %>
+<% end %>

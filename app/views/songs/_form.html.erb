@@ -1,0 +1,15 @@
+<%= form_for @song do |f| %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, placeholder: "Song name", class: "form-control", autofocus: true %>
+  </div>
+  <div class="form-group">
+    <%= f.label :duration %>
+    <%= f.text_area :duration, placeholder: "Duration Example (2:00)", class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :category %>
+    <%= f.text_field :category, placeholder: "Category", class: "form-control" %>
+  </div>
+  <%= f.submit "Save Song", class: "btn btn-block btn-default" %>
+<% end %>
