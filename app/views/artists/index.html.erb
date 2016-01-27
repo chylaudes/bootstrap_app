@@ -1,9 +1,10 @@
 <h1>Artists</h1>
 <hr>
 <% @artists.each do |artist| %>
-  <p class='artist'>
+  <p>
     <strong><%= artist.name %></strong> (<%= artist.category %>)
     <%= link_to "View Artist", artist_path(artist) %>
   </p>
   <hr>
 <% end %>
+<%= link_to "Home", root_path %>
